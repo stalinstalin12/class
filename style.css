@@ -1,0 +1,62 @@
+
+.container{
+    position: relative;
+    margin: auto;
+    height: 70vh;
+    width: 45vw;
+    background-color: rgb(1, 39, 26);
+}
+.box{
+    position: absolute;
+    height: 10vh;
+    width:5vw;
+    background-color:rgb(163, 118, 5);
+    animation: a1 3s alternate-reverse 0s infinite backwards ease-in-out;
+}
+@keyframes a1 {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    10%{
+        top: 60vh;
+        left: 0;
+        background-color: red;
+    }
+    20%{
+        top: 60vh;
+        left: 20vh;
+        background-color: blue;
+    }
+    30%{
+        top:0;
+        left: 20vh;
+        background-color: #00c59a;
+      }
+    40%{
+        top: 0;
+        left: 40vh;
+        background-color: green;
+    }
+    50%{
+        top: 60vh;
+        left: 40vh;
+        background-color: blueviolet;
+    }
+    60%{
+        top: 60vh;
+        left:60vh;
+        background-color: #fff;
+    }
+    70%{
+        top: 0;
+        left: 60vh;
+        background-color: #16003a;
+    }
+    80%{
+        top: 0;
+        left: 89%;
+        background-color: brown;
+    }
+    
+}
